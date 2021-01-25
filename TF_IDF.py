@@ -83,7 +83,7 @@ def count_term(text):
     return count
 
 
-def main(texts: list):
+def tf_idf(texts: list):
     countlist = []
 
     for text in texts:
@@ -104,5 +104,5 @@ if __name__ == "__main__":
     texts = ['Giyn likes guitar.',
              'Helen likes guitar too.',
              'Giyn also likes piano.']
-    for i in main(texts):
+    for i in tf_idf(texts):
         print(i)
