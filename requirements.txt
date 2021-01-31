@@ -6,3 +6,4 @@ scipy
 vaderSentiment
 nltk
 spacy
+SALib
