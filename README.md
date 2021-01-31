@@ -47,7 +47,7 @@ $Q$ 是该种类商品综合评分，$N$ 代表不同品牌商品个数，$Q_j$ 
 
 $Q_j=max\left\{W_i\right\}\frac{\sum{r_i*W_i}}{\sum{W_i}}$
 
-$W_i $代表每条评论的置信度，$r_i$ 为每条评论所打出的分数，$max\left\{W_i\right\}$ 为所有该商品评论中置信度最高的值。
+$W_i $ 代表每条评论的置信度，$r_i$ 为每条评论所打出的分数，$max\left\{W_i\right\}$ 为所有该商品评论中置信度最高的值。
 
 
 
@@ -81,7 +81,7 @@ $\delta_i$ 是通过模糊层次分析法 $(FAHP)$ 确立权重，再通过理�
 
 修饰词比例 $H_3 = \frac{N_b}{N_t}$
 
-评论深度 $H_4 = \frac{ln(N_a+N_b)}{ln(N_t)}$
+评论深度 $H_4 = \frac{ln(N_a+N_b)}{ln(N_t) + 1}$
 
 是否为 $verified\_customer$：$H_5$
 
