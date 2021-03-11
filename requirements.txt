@@ -8,3 +8,4 @@ nltk
 spacy
 SALib
 xlrd
+openpyxl
